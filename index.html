@@ -3,16 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
+    <meta name="description" content="My personal portfolio website">
 
-    <link rel="stylesheet" href="main_styles.css">
+    <link rel="stylesheet" href="style/main_styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <title>Portfolio</title>
 </head>
 <body>
     <header>
-        <nav class="container"
+        <nav class="main_nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about_me.html">About Me</a></li>
+                <li><a href="my_work.html">My Work</a></li>
+            </ul>
+        </nav>
     </header>
-    <h1>Emilee Stone</h1>
-    <h3><a href="mailto:mlee.stone@icloud.com"></a> | <a href="tel:360-929-2321">
+
+    <main>
+        <div class="main_container">
+            <div class="right_column">
+                <h1> Hello My Name is Emilee! </h1>
+                <p>
+                   I am a graphic designer and software developer who is passionate about creating thoughtful, 
+                   user-centered experiences through design and code. With a strong foundation in visual communication, 
+                   I combine creativity and technical skills to build intuitive and impactful products.
+                </p>
+            </div>
+                <!-- Social Networking -->
+                <h3 class="check_out_my_socials">Check out my socials</h3>
+
+                <div class="btn_container">
+                    <button onclick="window.location.href='https://github.com/mlee-stone'">Github</button>
+                    <button onclick="window.location.href='https://www.linkedin.com/in/emilee-s/'">LinkedIn</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    
 </body>
 </html>
